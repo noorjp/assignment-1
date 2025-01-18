@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-* {
+*{
   margin: 0;
   padding: 0;
 }
@@ -35,6 +35,7 @@ nav {
 /* banner */
 .banner {
   display: flex;
+  justify-content: space-between;
   margin: 20px 160px 80px;
   padding: 117px 60px;
   border-radius: 24px;
@@ -106,6 +107,7 @@ nav {
   align-items: center;
   width: 410 px;
   height:325px ;
+  margin-bottom: 32px;
 }
 
 .img-icon {
@@ -187,4 +189,112 @@ nav {
   background-color: #FFC239;
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* quote-section */
+
+
+
+.quote {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(14, 14, 14, 0.15); 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  background-origin: padding-box;
+  margin-bottom: 24px;
+  border-radius: 16px;
+
+}
+
+.quote-text {
+  font-size: 16px;
+  font-weight: regular;
+  font-family: Fira Sans;
+  color: #0E0E0E 80%;
+  padding: 48px 24px 12px 24px;
+  background-image: url('../assets/quote-bg.png');
+  background-repeat: no-repeat;
+  background-position: 29px 19px;
+
+}
+
+.quote-author {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Fira Sans;
+  color: #0E0E0E 80%;
+  padding: 12px 24px 4px 24px;
+}
+
+.quote-role {
+  font-size: 16px;
+  font-weight: regular;
+  font-family: Fira Sans;
+  color: #0E0E0E 80%;
+  padding: 4px 24px 48px 24px;
+}
+
+/* recent-news */
+
+.recent-news {
+  align-items: center;
+  margin: 24px 160px;
+  margin-bottom: 32px;
+  margin-top: 80px;
+}
+
+.news-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 48px;
+  border-radius: 24px;
+  height: auto;
+  max-width: fit-content;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.news-image {
+  margin-left: 48px;
+ border-radius: 24px;
+}
+
+.news-title {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Fira Sans;
+  color: #0E0E0E 80%;
+  margin-bottom: 12px;
+}
+
+.channel-logo {
+ margin-bottom: 12px;
+}
+
+.news-date-time {
+  font-size: 16px;
+  font-weight: regular;
+  font-family: Fira Sans;
+  color: #0E0E0E;
+  opacity: 70%;
+  margin-bottom: 12px;
+}
+
+/* Donate */
+
+.Donate  {
+  align-items: center;
+  margin: 24px 160px;
+  margin-bottom: 32px;
+  margin-top: 80px;
+}
+
+.center {
+  text-align: center;
+}
+
+.box-model {
+  display: flex;
+  justify-content: space-between;
 }
