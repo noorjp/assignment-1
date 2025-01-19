@@ -443,3 +443,40 @@ button:hover {
   text-align: center;
   margin-top: 20px;
 }
+
+
+.footer {
+  padding: 40px 160px;
+  align-items: center;
+  text-align: center;
+}
+
+.footer .title {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Fira Sans;
+  margin-bottom: 24px;
+}
+
+.links  {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 24px;
+  
+}
+
+.footer ul li {
+  list-style: none;
+  align-items: center;
+}
+
+hr {
+  border: 1px solid #0E0E0E 10%;
+  margin-bottom: 20px;
+  text-align:center;
+  width:50%;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
